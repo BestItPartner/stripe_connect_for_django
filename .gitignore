@@ -1,0 +1,18 @@
+*.py[cod]
+__pycache__
+.tox
+*.mo
+
+# Sphinx
+docs/_build
+docs/_static
+
+# SQLite
+*.sqlite3
+
+# Coverage
+/cover
+.coverage
+
+# Do not commit Poetry lockfiles for libraries
+poetry.lock
